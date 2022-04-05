@@ -51,8 +51,8 @@ with st.spinner(text="Loading section..."):
 st.subheader('Education 📖')
 
 fig = go.Figure(data=[go.Table(
-    columnorder = [1,2,3,4,5],
-    columnwidth = [300,220,230,100,100],
+    #columnorder = [1,2,3,4,5],
+    #columnwidth = [300,220,230,100,100],
     header=dict(values=list(info['edu'].columns),
                 #fill_color='royalblue',
                 align='left',height=40,
@@ -61,7 +61,7 @@ fig = go.Figure(data=[go.Table(
     cells=dict(values=info['edu'].transpose().values.tolist(),
                align='left',height=50,font_size=16))])
 
-#fig.update_layout(width=900, height=500)
+fig.update_layout(width=900, height=500)
 st.plotly_chart(fig)
 st.subheader('Academic Projects 📝')
         
