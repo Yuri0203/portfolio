@@ -56,7 +56,7 @@ fig = go.Figure(data=[go.Table(
     header=dict(values=list(info['edu'].columns),
                 #fill_color='royalblue',
                 align='left',height=40,
-                font_size=20)),
+                font_size=20),
     cells=dict(values=info['edu'].transpose().values.tolist(),
                align='left',height=50,font_size=16))])
 
