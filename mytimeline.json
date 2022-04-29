@@ -23,4 +23,8 @@
         "text": {"headline": "Research Assistant at HKU Business School", "text": "Under the Covid 5th wave in HK, I assisted the MBA course PMBA6092 Python Programming for Managers and Strategists taught by Prof. Yuk-fai Fong in online mode"}}, 
         {"start_date": {"year": "2022", "month": "3"},  
         "media": {"url": "https://raw.githubusercontent.com/Yuri0203/portfolio/main/image/hrm.png", "credit": "https://www.aihr.com/blog/measuring-human-resource-costs-human-resource-costing/"}, 
-        "text": {"headline": "Prescriptive Analytics Project", "text": "This involved applying a predict-then-optimize approach to minimize the HRM cost while retaining an acceptable turnover rate"}}]}
+        "text": {"headline": "Prescriptive Analytics Project", "text": "This involved applying a predict-then-optimize approach to minimize the HRM cost while retaining an acceptable turnover rate"}},
+        {"start_date": {"year": "2022", "month": "5"},  
+        "media": {"url": "https://raw.githubusercontent.com/Yuri0203/portfolio/main/image/mapxus.jpeg", "credit": "www.mapxus.com"}, 
+        "text": {"headline": "Mapxus Capstone Project", "text": "This involved working on Auto Brand Identification from 360 panoramic images to automate Point-of-Interests(POI) extraction for Mapxus, an indoor mapping company"}}
+    ]}
