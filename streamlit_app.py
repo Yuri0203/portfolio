@@ -84,6 +84,8 @@ achievement_list = ''.join(['<li>'+item+'</li>' for item in info['achievements']
 st.markdown('<ul>'+achievement_list+'</ul>',unsafe_allow_html=True)
 
 st.subheader('Tableau Public Profile 📊')
+st.markdown("""<a href={}> access full profile here</a>""".format(info['tableau']),unsafe_allow_html=True)
+
 
 st.sidebar.caption('Wish to connect?')
 st.sidebar.write('📧: zhangyushuangzi@outlook.com')
