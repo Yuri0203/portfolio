@@ -60,7 +60,7 @@ fig = go.Figure(data=[go.Table(
 
 fig.update_layout(width=900, height=500)
 st.plotly_chart(fig)
-st.subheader('Academic Projects 📝')
+st.subheader('Data Analytics Projects 📝')
         
 def paper_summary(index):
     st.markdown('<h5><u>'+paper_info['name'][index]+'</h5>',unsafe_allow_html=True)
@@ -74,14 +74,16 @@ def paper_summary(index):
     
 
 
-paper_summary(0)
+#paper_summary(0)
 paper_summary(1)
 paper_summary(2)
+paper_summary(3)
 
 st.subheader('Awards and Scholarship 🥇')
 achievement_list = ''.join(['<li>'+item+'</li>' for item in info['achievements']])
 st.markdown('<ul>'+achievement_list+'</ul>',unsafe_allow_html=True)
 
+st.subheader('Tableau Public Profile 📊')
 
 st.sidebar.caption('Wish to connect?')
 st.sidebar.write('📧: zhangyushuangzi@outlook.com')
