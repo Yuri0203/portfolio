@@ -9,6 +9,7 @@ info = {'name':'Yuri Zhang',
         'Brief':'An analytical and detailed oriented professional with 2+ years of professional experience in business intelligence and data analytics. Conversant with statistical concepts and machine learning techniques. Strong in building data dashboards to report and forecast business performance. Proven ability in crafting engaging stories around data and deriving insights from them. Love to learn new things and ready to face new challenges.', 
         'Email':'zhangyushuangzi@outlook.com',
         'City':'Hong Kong',
+        'tableau':'https://public.tableau.com/app/profile/yuri.zhang',
         'edu':pd.DataFrame(edu,columns=['University','Qualification','Major','Year','GPA']),
         'skills':['Data Visualization','Data Science','web scraping','A/B Testing','Time-Series Analysis','Market Research','Python','R','SQL','Tableau','Excel VBA','Bloomberg Terminal'],
         'achievements':['HKU MScBA Merit-based Scholarship, 2022','HKU MScBA Entrance Scholarship, 2021','China National Scholarship, 2018','BNU First-Class Academic Scholarships, 2018 & 2019 & 2020','2nd Prize Winner in Beijing at the 2019 China Undergraduate Mathematical Contest in Modelling (CUMCM)', '2nd Prize Winner at the 2019 Beijing Undergraduate Mathematical Contest in Modelling']}
