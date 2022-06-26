@@ -1,6 +1,6 @@
 import pandas as pd
 
-edu = [['University of Hong Kong (HKU)','Master of Science','Business Analytics','2022','4.0/4.3'],
+edu = [['University of Hong Kong (HKU)','Master of Science','Business Analytics','2022','3.8/4.3'],
         ['Beijing Normal University (BNU)','Bachelor of Economics','Finance','2021','3.9/4.0'],
         ['University of Manchester','Sememster Exchange','Finance and Economics', '2020','A+'],
         ['London School of Economics and Political Science','Summer School','Data Science and Machine Learning','2019','A']]
@@ -14,7 +14,7 @@ info = {'name':'Yuri Zhang',
         'achievements':['HKU MScBA Entrance Scholarship, 2021','China National Scholarship, 2018','BNU First-Class Academic Scholarships, 2018 & 2019 & 2020','2nd Prize Winner in Beijing at the 2019 China Undergraduate Mathematical Contest in Modelling (CUMCM)', '2nd Prize Winner at the 2019 Beijing Undergraduate Mathematical Contest in Modelling']}
 
 paper_info = {
-        'name':['HR Analytics: Turnover Rate Management with Optimal Cost','Credit Card Approval Prediction','Pricing Model for Digital Labor Crowdsourcing Platform'],
+        'name':['Employee Attrition Analytics: Turnover Rate Management with Optimal Cost','Credit Card Approval Prediction','Pricing Model for Digital Labor Crowdsourcing Platform'],
         'type':['Machine Learning & Optimization Project','Machine Learning Project','Mathematical Modelling Project'],
         'year':['2022','2021','2019'],
         'role':['Co-Author','Co-Author','Co-Author'],
