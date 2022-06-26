@@ -17,7 +17,7 @@
         "text": {"headline": "Business Data Analyst Intern at AWS", "text": "Attracted by Amazon's brand reputation, open culture and great work-life balance, I joined at AWS for a 6-month internship supporting the Public Sector and IBD operations team"}}, 
         {"start_date": {"year": "2021", "month": "4"}, 
         "media": {"url": "https://raw.githubusercontent.com/Yuri0203/portfolio/main/image/bnu.png", "credit": "Beijing Normal University"}, 
-        "text": {"headline": "Data Analyst Intern at BNU Data Center", "text": "In the last period of my undergraduate, I worked as a part-time data analyst assistant for BNU data center, supporting the internal data platform"}}, 
+        "text": {"headline": "Data Analytics Assistant at BNU Data Center", "text": "In the last period of my undergraduate, I worked as a part-time data analytics assistant for BNU data center, creating Tableau data visualizations to support the internal data platform"}}, 
         {"start_date": {"year": "2022", "month": "1"}, 
         "media": {"url": "https://media-exp1.licdn.com/dms/image/C5622AQHbjm3FEjnYtQ/feedshare-shrink_800/0/1648839524393?e=2147483647&v=beta&t=lV23qh5ACiyWSl3ZYiMBznV_o3GCdHRnReeMTnUHj18", "credit": "https://www.linkedin.com/posts/yuk-fai-fong-22a92774_just-wrapped-up-teaching-the-second-cohort-activity-6915734218111143936-8yVP?utm_source=linkedin_share&utm_medium=member_desktop_web"}, 
         "text": {"headline": "Research Assistant at HKU Business School", "text": "Under the Covid 5th wave in HK, I assisted the MBA course PMBA6092 Python Programming for Managers and Strategists taught by Prof. Yuk-fai Fong in online mode"}}, 
@@ -26,5 +26,5 @@
         "text": {"headline": "Prescriptive Analytics Project", "text": "This involved applying a predict-then-optimize approach to minimize the HRM cost while retaining an acceptable turnover rate"}},
         {"start_date": {"year": "2022", "month": "5"},  
         "media": {"url": "https://raw.githubusercontent.com/Yuri0203/portfolio/main/image/mapxus.jpeg", "credit": "www.mapxus.com"}, 
-        "text": {"headline": "Mapxus Capstone Project", "text": "This involved working on Auto Brand Identification from 360 panoramic images to automate Point-of-Interests(POI) extraction for Mapxus, an indoor mapping company"}}
+        "text": {"headline": "Mapxus Business Analytics Project", "text": "This involved working on Brand Identification from 360 panoramic images to automate Point-of-Interests(POI) data extraction for Mapxus, an indoor mapping company"}}
     ]}
