@@ -86,6 +86,8 @@ st.markdown('<ul>'+achievement_list+'</ul>',unsafe_allow_html=True)
 st.subheader('Tableau Public Profile 📊')
 st.markdown("""<a href={}> access full profile here</a>""".format(info['tableau']),unsafe_allow_html=True)
 
+with st.expander('read my latest data viz below'):
+    components.html(embed_component['tableau'])
 
 st.sidebar.caption('Wish to connect?')
 st.sidebar.write('📧: zhangyushuangzi@outlook.com')
