@@ -70,11 +70,11 @@ def paper_summary(index):
         with st.spinner(text="Loading details..."):
                 st.write(paper_info['Summary'][index])
                 pdfFileObj = open('pdfs/{}'.format(paper_info['file'][index]), 'rb')
-                st.download_button('download report',pdfFileObj,file_name=paper_info['file'][index],mime='pdf')
+                st.download_button('download report/presentation',pdfFileObj,file_name=paper_info['file'][index],mime='pdf')
     
 
 
-#paper_summary(0)
+paper_summary(0)
 paper_summary(1)
 paper_summary(2)
 paper_summary(3)
