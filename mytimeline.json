@@ -27,4 +27,7 @@
         {"start_date": {"year": "2022", "month": "5"},  
         "media": {"url": "https://raw.githubusercontent.com/Yuri0203/portfolio/main/image/mapxus.jpeg", "credit": "www.mapxus.com"}, 
         "text": {"headline": "Mapxus Business Analytics Project", "text": "This involved working on Brand Identification from 360 panoramic images to automate Point-of-Interests(POI) data extraction for Mapxus, an indoor mapping company"}}
+        {"start_date": {"year": "2022", "month": "9"},  
+        "media": {"url": "https://raw.githubusercontent.com/Yuri0203/portfolio/main/image/portfolio_bv_1.png", "caption": "Supplier Scorecard"}, 
+        "text": {"headline": "Data Analyst at BVHK", "text": "In Sep 2022, I started my first full-time job as a data analyst at Bureau Veritas Consumer Product Services, working on Business Intelligence and Analytics under Digital Client Solution Team"}}
     ]}
