@@ -11,7 +11,7 @@ info = {'name':'Yuri Zhang',
         'City':'Hong Kong',
         'tableau':'https://public.tableau.com/app/profile/yuri.zhang',
         'edu':pd.DataFrame(edu,columns=['University','Qualification','Major','Year','GPA']),
-        'skills':['Data Visualization','Data Science','web scraping','A/B Testing','Time-Series Analysis','Market Research','Python','R','SQL','Tableau','Excel VBA','Bloomberg Terminal'],
+        'skills':['Business Intelligence', 'Data Visualization','Data Science','web scraping','A/B Testing','Python','R','SQL','Tableau','Tableau Prep','Excel VBA','Bloomberg Terminal'],
         'achievements':['HKU MScBA Merit-based Scholarship, 2022','HKU MScBA Entrance Scholarship, 2021','China National Scholarship, 2018','BNU First-Class Academic Scholarships, 2018 & 2019 & 2020','2nd Prize Winner in Beijing at the 2019 China Undergraduate Mathematical Contest in Modelling (CUMCM)', '2nd Prize Winner at the 2019 Beijing Undergraduate Mathematical Contest in Modelling']}
 
 paper_info = {
