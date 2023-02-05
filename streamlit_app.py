@@ -83,14 +83,16 @@ st.subheader('Awards and Scholarship 🥇')
 achievement_list = ''.join(['<li>'+item+'</li>' for item in info['achievements']])
 st.markdown('<ul>'+achievement_list+'</ul>',unsafe_allow_html=True)
 
-st.subheader('Tableau Public Profile 📊')
-st.markdown("""<a href={}> access full profile here</a>""".format(info['tableau']),unsafe_allow_html=True)
-
-with st.expander('read my latest data viz below'):
+st.subheader('Tableau BI Projects 📊')
+#st.markdown("""<a href={}> access full profile here</a>""".format(info['tableau']),unsafe_allow_html=True)
+st.markdown('<h5><u>Supplier Scorecard</h5>',unsafe_allow_html=True)
+st.caption('Mockup with Dummy Data')
+with st.expander('read data viz sample below'):
     components.html(embed_component['tableau'],height=1000)
 
 st.sidebar.caption('Wish to connect?')
 st.sidebar.write('📧: zhangyushuangzi@outlook.com')
+st.sidebar.write('📧: yurizhang0203@gmail.com')
 pdfFileObj = open('pdfs/yuri_resume.pdf', 'rb')
 st.sidebar.download_button('download resume',pdfFileObj,file_name='yuri_resume.pdf',mime='pdf')
 
