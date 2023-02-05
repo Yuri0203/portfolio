@@ -19,7 +19,7 @@ st.set_page_config(page_title='yuri zhang\'s portfolio' ,layout="wide",page_icon
 with st.sidebar:
         components.html(embed_component['linkedin'],height=310)
 
-st.subheader('Summary')
+st.subheader('About Me')
 st.write(info['Brief'])
 
 st.subheader('Career snapshot')
@@ -95,7 +95,8 @@ st.caption('Mockup with Dummy Data')
 with st.expander('read data viz sample below'):
     components.html(embed_component['tableau'],height=800)
 
-st.sidebar.caption('Wish to connect?')
+#st.sidebar.caption('Wish to connect?')
+st.sidebar.subheader('Contact')
 st.sidebar.write('📧: zhangyushuangzi@outlook.com')
 st.sidebar.write('📧: yurizhang0203@gmail.com')
 pdfFileObj = open('pdfs/yuri_resume.pdf', 'rb')
