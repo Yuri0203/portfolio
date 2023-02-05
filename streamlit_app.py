@@ -88,7 +88,12 @@ st.subheader('Tableau BI Projects 📊')
 st.markdown('<h5><u>Supplier Scorecard</h5>',unsafe_allow_html=True)
 st.caption('Mockup with Dummy Data')
 with st.expander('read data viz sample below'):
-    components.html(embed_component['tableau'],height=1000)
+    components.html(embed_component['tableau'],height=800)
+
+st.markdown('<h5><u>Multi-Service Line BI Analytics</h5>',unsafe_allow_html=True)
+st.caption('Mockup with Dummy Data')
+with st.expander('read data viz sample below'):
+    components.html(embed_component['tableau'],height=800)
 
 st.sidebar.caption('Wish to connect?')
 st.sidebar.write('📧: zhangyushuangzi@outlook.com')
