@@ -97,8 +97,13 @@ with st.expander('read data viz sample below'):
 
 #st.sidebar.caption('Wish to connect?')
 st.sidebar.subheader('Contact')
+st.sidebar.caption('Email')
 st.sidebar.write('📧: zhangyushuangzi@outlook.com')
 st.sidebar.write('📧: yurizhang0203@gmail.com')
+
+st.sidebar.caption('Linkedin')
+st.sidebar.write('👩‍🔬: www.linkedin.com/in/yurizhang99/')
+
 pdfFileObj = open('pdfs/yuri_resume.pdf', 'rb')
 st.sidebar.download_button('download resume',pdfFileObj,file_name='yuri_resume.pdf',mime='pdf')
 
