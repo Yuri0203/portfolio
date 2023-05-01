@@ -86,14 +86,14 @@ st.markdown('<ul>'+achievement_list+'</ul>',unsafe_allow_html=True)
 st.subheader('Tableau BI Projects 📊')
 #st.markdown("""<a href={}> access full profile here</a>""".format(info['tableau']),unsafe_allow_html=True)
 st.markdown('<h5><u>Supplier Scorecard</h5>',unsafe_allow_html=True)
-st.caption('Mockup with Dummy Data')
+st.caption('work sample with Dummy Data')
 with st.expander('read data viz sample below'):
     components.html(embed_component['tableau'],height=800)
 
-st.markdown('<h5><u>Multi-Service Line BI Analytics</h5>',unsafe_allow_html=True)
-st.caption('Mockup with Dummy Data')
-with st.expander('read data viz sample below'):
-    components.html(embed_component['tableau'],height=800)
+#st.markdown('<h5><u>Multi-Service Line BI Analytics</h5>',unsafe_allow_html=True)
+#st.caption('Mockup with Dummy Data')
+#with st.expander('read data viz sample below'):
+#    components.html(embed_component['tableau'],height=800)
 
 #st.sidebar.caption('Wish to connect?')
 st.sidebar.subheader('Contact')
