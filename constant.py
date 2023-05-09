@@ -12,7 +12,7 @@ info = {'name':'Yuri Zhang',
         'tableau':'https://public.tableau.com/app/profile/yuri.zhang',
         'edu':pd.DataFrame(edu,columns=['University','Qualification','Major','Year','GPA']),
         'skills':['Business Intelligence', 'Data Visualization','Data Science','Tableau','Tableau Prep','Python','R','SQL','Excel VBA','Power BI','web scraping','A/B Testing'],
-        'achievements':['HKU MScBA Merit-based Scholarship, 2022','HKU MScBA Entrance Scholarship, 2021','China National Scholarship, 2018','BNU First-Class Academic Scholarships, 2018 & 2019 & 2020','2nd Prize Winner in Beijing at the 2019 China Undergraduate Mathematical Contest in Modelling (CUMCM)', '2nd Prize Winner at the 2019 Beijing Undergraduate Mathematical Contest in Modelling']}
+        'achievements':["HKU Dean's Honours List, 2022",'HKU MScBA Merit-based Scholarship, 2022','HKU MScBA Entrance Scholarship, 2021','China National Scholarship, 2018','BNU First-Class Academic Scholarships, 2018 & 2019 & 2020','2nd Prize Winner in Beijing at the 2019 China Undergraduate Mathematical Contest in Modelling (CUMCM)', '2nd Prize Winner at the 2019 Beijing Undergraduate Mathematical Contest in Modelling']}
 
 paper_info = {
         'name':['POI Collection and Brand Identification Enhancement in Indoor Map Production','Employee Attrition Analytics: Turnover Rate Management with Optimal Cost','Credit Card Approval Prediction','Pricing Model for Digital Labor Crowdsourcing Platform'],
