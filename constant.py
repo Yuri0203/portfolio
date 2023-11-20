@@ -6,7 +6,7 @@ edu = [['University of Hong Kong (HKU)','Master of Science','Business Analytics'
         ['London School of Economics and Political Science','Summer School','Data Science and Machine Learning','2019','A']]
 
 info = {'name':'Yuri Zhang', 
-        'Brief':'An analytical and detailed oriented professional with 2+ years of professional experience in business intelligence and data analytics. Conversant with statistical concepts and machine learning techniques. Strong in building data dashboards to report and analyse business performance. Proven ability in crafting engaging stories around data and deriving insights from them. Love to learn new things and ready to face new challenges.', 
+        'Brief':'An analytical and detailed oriented professional with 1+ years of professional experience in business intelligence and data analytics. Conversant with statistical concepts and machine learning techniques. Strong in building data dashboards to report and analyse business performance. Proven ability in crafting engaging stories around data and deriving insights from them. Love to learn new things and ready to face new challenges.', 
         'Email':'zhangyushuangzi@outlook.com',
         'City':'Hong Kong',
         'tableau':'https://public.tableau.com/app/profile/yuri.zhang',
