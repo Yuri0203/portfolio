@@ -30,7 +30,7 @@ skill_col_size = 4
 embed_component= {'linkedin':"""<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
         <div class="badge-base LI-profile-badge" data-locale="en_HK" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="yurizhang99" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://in.linkedin.com/in/yurizhang99?trk=profile-badge"></a></div>""",
                  'tableau': 
-                """<div id="vizContainerDesktop NV" style="width:100%; height:820px;"><iframe frameborder="0" allowtransparency="true" allowfullscreen="true" title="'SUPPLIER SCORECARD" marginheight="0" marginwidth="0" style="display: block; min-width: 400px; width:100%; max-width: 1700px; height: 790px; visibility: visible;" src=" https://public.tableau.com/views/SupplierScorecard_16750932556240/SUPPLIERSCORECARD?:language=en-US&:display_count=n&?:embed=y&:showVizHome=n&:device=desktop"></iframe></div> 
+                """<div id="vizContainerDesktop NV" style="width:100%; height:820px;"><iframe frameborder="0" allowtransparency="true" allowfullscreen="true" title="'SUPPLIER SCORECARD" marginheight="0" marginwidth="0" scrolling="no" style="display: block; min-width: 400px; width:100%; max-width: 1700px; height: 790px; visibility: visible;" src=" https://public.tableau.com/views/SupplierScorecard_16750932556240/SUPPLIERSCORECARD?:language=en-US&:display_count=n&?:embed=y&:showVizHome=n&:device=desktop"></iframe></div> 
 <script type='text/javascript'>          
 var vizElementD = document.getElementById('vizContainerDesktop NV');
 vizElementD.style.display='block';
