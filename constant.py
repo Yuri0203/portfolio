@@ -37,7 +37,7 @@ vizElementD.style.display='block';
 </script>
 """,
                  'tableau_2': 
-                """<div id="vizContainerDesktop NV" style="width:100%; height:820px;"><iframe frameborder="0" allowtransparency="true" allowfullscreen="true" title="'NIHR Research Award" marginheight="0" marginwidth="0" scrolling="no" style="display: block; min-width: 400px; width:100%; max-width: 1700px; height: 790px; visibility: visible;" src=" https://public.tableau.com/views/NIHRResearchAwards/DataQuality?:language=en-US&:display_count=n&?:embed=y&:showVizHome=n&:device=desktop""></iframe></div> 
+                """<div id="vizContainerDesktop NV" style="width:100%; height:820px;"><iframe frameborder="0" allowtransparency="true" allowfullscreen="true" title="'NIHR Research Award" marginheight="0" marginwidth="0" scrolling="no" style="display: block; min-width: 400px; width:100%; max-width: 1700px; height: 1000px; visibility: visible;" src=" https://public.tableau.com/views/NIHRResearchAwards/DataQuality?:language=en-US&:display_count=n&?:embed=y&:showVizHome=n&:device=desktop""></iframe></div> 
 <script type='text/javascript'>          
 var vizElementD = document.getElementById('vizContainerDesktop NV');
 vizElementD.style.display='block';
