@@ -61,6 +61,22 @@ with st.spinner(text="Loading section..."):
 #fig.update_layout(width=900, height=500)
 #st.plotly_chart(fig)
 
+st.subheader('Tableau BI Projects 📊')
+#st.markdown("""<a href={}> access full profile here</a>""".format(info['tableau']),unsafe_allow_html=True)
+
+st.markdown('<h5><u>Supplier Scorecard</h5>',unsafe_allow_html=True)
+st.caption('work sample with Dummy Data')
+with st.expander('read data viz sample below'):
+    components.html(embed_component['tableau'],height=800)
+
+
+st.markdown('<h5><u>NIHR Research Award Analysis</h5>',unsafe_allow_html=True)
+with st.expander('read data viz sample below'):
+    components.html(embed_component['tableau_2'],height=1000)
+
+
+
+
 st.subheader('Data Analytics Projects 📝')
         
 def paper_summary(index):
@@ -83,18 +99,6 @@ paper_summary(3)
 st.subheader('Awards and Scholarship 🥇')
 achievement_list = ''.join(['<li>'+item+'</li>' for item in info['achievements']])
 st.markdown('<ul>'+achievement_list+'</ul>',unsafe_allow_html=True)
-
-st.subheader('Tableau BI Projects 📊')
-#st.markdown("""<a href={}> access full profile here</a>""".format(info['tableau']),unsafe_allow_html=True)
-
-st.markdown('<h5><u>NIHR Research Award Analysis</h5>',unsafe_allow_html=True)
-with st.expander('read data viz sample below'):
-    components.html(embed_component['tableau_2'],height=1000)
-
-st.markdown('<h5><u>Supplier Scorecard</h5>',unsafe_allow_html=True)
-#st.caption('work sample with Dummy Data')
-with st.expander('read data viz sample below'):
-    components.html(embed_component['tableau'],height=800)
 
 
 #st.sidebar.caption('Wish to connect?')
