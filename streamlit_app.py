@@ -28,10 +28,10 @@ st.write(info['Brief'])
 st.subheader('Career snapshot')
 
     
-with st.spinner(text="Building line"):
-    with open('mytimeline.json', "r") as f:
+#with st.spinner(text="Building line"):
+with open('mytimeline.json', "r") as f:
         data = f.read()
-        timeline(data, height=500)
+timeline(data, height=500)
 
 
 st.subheader('Skills & Tools ⚒️')
