@@ -102,7 +102,7 @@ st.markdown('<ul>'+achievement_list+'</ul>',unsafe_allow_html=True)
 
 
 with st.sidebar:
-        components.html(embed_component['linkedin'],width=300, height=300)
+        components.html(embed_component['linkedin'],height=300)
         
 st.sidebar.caption('Wish to connect?')
 st.sidebar.subheader('Contact')
