@@ -18,10 +18,10 @@ try:
 except:
         st.beta_set_page_config(layout="wide", page_title='yuri zhang\'s portfolio' ,page_icon='👩‍🔬')
 
-#st.subheader('About Me')
-#st.write(info['Brief'])
+st.subheader('About Me')
+st.write(info['Brief'])
 
-#st.subheader('Career snapshot')
+st.subheader('Career snapshot')
 
     
 #with st.spinner(text="Building line"):
