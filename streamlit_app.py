@@ -18,10 +18,10 @@ try:
 except:
         st.beta_set_page_config(layout="wide", page_title='yuri zhang\'s portfolio' ,page_icon='👩‍🔬')
 
-st.subheader('About Me')
-st.write(info['Brief'])
+#st.subheader('About Me')
+#st.write(info['Brief'])
 
-st.subheader('Career snapshot')
+#st.subheader('Career snapshot')
 
     
 #with st.spinner(text="Building line"):
@@ -104,10 +104,9 @@ st.markdown('<ul>'+achievement_list+'</ul>',unsafe_allow_html=True)
 with st.sidebar:
         components.html(embed_component['linkedin'],width=300, height=300)
         
-#st.sidebar.caption('Wish to connect?')
+st.sidebar.caption('Wish to connect?')
 st.sidebar.subheader('Contact')
 st.sidebar.caption('Email')
-st.sidebar.write('📧: zhangyushuangzi@outlook.com')
 st.sidebar.write('📧: yurizhang0203@gmail.com')
 
 st.sidebar.caption('Linkedin')
