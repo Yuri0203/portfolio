@@ -20,7 +20,7 @@ except:
 
 
 with st.sidebar:
-        components.html(embed_component['linkedin'],height=310)
+        components.html(embed_component['linkedin'],width=300, height=300)
 
 st.subheader('About Me')
 st.write(info['Brief'])
