@@ -13,7 +13,7 @@ import io
 import matplotlib.pyplot as plt
 import streamlit.components.v1 as components
 
-st.set_page_config(page_title='yuri zhang\'s portfolio' ,page_icon='👩‍🔬') 
+st.set_page_config(layout="wide", page_title='yuri zhang\'s portfolio', page_icon='👩‍🔬') 
 
 
 st.subheader('About Me')
