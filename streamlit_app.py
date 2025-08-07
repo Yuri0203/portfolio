@@ -13,7 +13,10 @@ import io
 import matplotlib.pyplot as plt
 import streamlit.components.v1 as components
 
-st.set_page_config(page_title='yuri zhang\'s portfolio' ,layout="wide",page_icon='👩‍🔬') 
+try: 
+        st.set_page_config(layout="wide", page_title='yuri zhang\'s portfolio' ,page_icon='👩‍🔬') 
+except:
+        st.beta_set_page_config(layout="wide", page_title='yuri zhang\'s portfolio' ,page_icon='👩‍🔬')
 
 
 with st.sidebar:
