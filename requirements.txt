@@ -6,3 +6,4 @@ plotly
 requests
 streamlit
 streamlit_timeline
+altair<5
